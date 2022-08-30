@@ -1,4 +1,4 @@
-module github.com/uptime-com/rest-api-clients/golang
+module github.com/gecio/rest-api-clients/golang
 
 require (
 	github.com/domainr/whois v0.0.0-20220117141512-d1392057429c
@@ -7,4 +7,14 @@ require (
 	github.com/likexian/whois-parser v1.22.0
 )
 
-go 1.12
+require (
+	github.com/PuerkitoBio/goquery v1.8.0 // indirect
+	github.com/andybalholm/cascadia v1.3.1 // indirect
+	github.com/likexian/gokit v0.25.6 // indirect
+	github.com/saintfish/chardet v0.0.0-20120816061221-3af4cd4741ca // indirect
+	github.com/zonedb/zonedb v1.0.3514 // indirect
+	golang.org/x/net v0.0.0-20210928044308-7d9f5e0b762b // indirect
+	golang.org/x/text v0.3.7 // indirect
+)
+
+go 1.19
